@@ -1,0 +1,72 @@
+
+.container{
+    margin-left:15px;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+.js-name-input{
+    width:200px;
+    height:20px;
+    border: 2px black solid;
+    border-radius: 5px;
+
+}
+
+.js-date-input{
+    width:130px;
+    height:20px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+.add-button{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+    height:20px;
+}
+
+.js-todo-list{
+    display: grid;
+    grid-template-columns: 500px 150px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.js-todo{
+    text-align:center;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-top:10px;
+    width:auto;
+    height:30px;
+    margin-right:5px;
+}
+
+.delete-button {
+    text-align:center;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    border-radius: 10px;
+    width:100px;
+    height:30px;
+    margin-right:5px;
+    cursor: pointer;
+
+
+}
